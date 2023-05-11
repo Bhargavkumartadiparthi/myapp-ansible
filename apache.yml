@@ -1,5 +1,5 @@
 ---
-- hosts: webservers 
+- hosts: 172.31.0.48
   become: True
   tasks:
     - name: Install packages
